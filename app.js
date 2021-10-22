@@ -1,8 +1,6 @@
-
 const fs = require( 'fs');
 const http = require('http');
 const {readFileSync} = require('fs');
-
 const homePage = readFileSync('./public/index.html');
 const processingPage = readFileSync('./public/pages/processing.html');
 const originalDataPage = readFileSync('./public/pages/original-data.html');
