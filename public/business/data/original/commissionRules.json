@@ -1,0 +1,7 @@
+[
+	{"employee":"1", "percentage":"15%", "bonus":"2000.00"},
+	{"employee":"2", "percentage":"10%", "bonus":"3000.00"},
+	{"employee":"3", "percentage":"7.5%", "bonus":"5000.00"},
+	{"employee":"4", "percentage":"10%", "bonus":"3000.00"},
+	{"employee":"5", "percentage":"10%", "bonus":"3000.00"}
+]

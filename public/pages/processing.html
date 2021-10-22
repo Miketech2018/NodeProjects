@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Processing</title>
+    <!--styles-->
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    <link rel="stylesheet"  href="../styles/style.css" />
+<!--    <link rel="stylesheet"  href="../styles/calendar.css" />-->
+    
+</head>
+<body>
+    <nav>
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <img src="../assets/logo.jpg" class="logo" alt="logo" />
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <ul class="links">
+            <li>
+              <a href="../index.html">home</a>
+            </li>
+            <li>
+              <a href="./processing.html">processing</a>
+            </li>
+            <li>
+              <div class="data-dropdown">
+                <button class="data-dropbtn">Data 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="data-dropdown-content">
+                  <a href="./original-data.html">Original</a>
+                  <a href="./updated-data.html">Updated</a>
+                </div>
+              </div>     
+            </li>
+           
+          </ul>
+          <!-- social media -->
+          <ul class="social-icons">
+            <li>
+                <a href="https://www.mewe.com">
+                <i>mewe</i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="nav-center">
+      <div class="data">
+        <!--<a href="./original-data/getEmployee">get employees</a>-->
+        <button class="getemployee" onclick="javascript:getUpdatedEmployee();">Get Updated Employees</button> 
+       <!-- <img id="rainbow" src="" alt="Girl in a jacket" width="500" height="600">-->
+          |
+        <label for="dateSelected">Enter Assumed Date</label>
+        <input name="dateSelected" class="dateSelected" id="dateSelected" value="06/14/2008" />
+        <!--<input type="text" id="dateSelected" name=="dateSelected" />-->
+          |
+       <button class="updateEmployees" onclick="javascript:updateEmployees();">Update Employees days till bday</button> 
+          |
+        <label for="dateSelected">Supervisor Id</label>
+        <input name="supervisorId" class="supervisorId" id="supervisorId" value="3" />
+            
+       <button class="updateEmployeesRevenue" onclick="javascript:updateEmployeesRevenues();">Update Employees Revenue</button> 
+        
+          <div class="tables">
+              <table id="employee" class="employee"></table>
+          <br />
+          <br />
+          <div class="calculatecommission">
+            <button class="calculatecommission" onclick="javascript:calculateCommission();">Calculate Commission</button> 
+            |
+            <button class="getcalculatedcommission" onclick="javascript:getCalculatedCommission();">Get Calculated Commission</button> 
+          
+            <table id="employeescommission" class="employeescommission"></table>
+          </div>   
+          </div>         
+      </div>
+    </div>
+   
+      <script src="../js/client-app.js"></script>
+           
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+[    
+	{"internalid":"1", "name":"Abe Anderson", "email":"aanderson@javascript.com", "birthdate":"9/25/1974", "supervisor":"3", "2012 Revenue":"100000.00", "2013 Revenue":"0.00"},
+	{"internalid":"2", "name":"Bob Benson", "email":"bbenson@javascript.com", "birthdate":"7/13/1972", "supervisor":"3", "2012 Revenue":"150000.00", "2013 Revenue":"0.00"},
+	{"internalid":"3", "name":"Chelsea Chastain", "email":"cchastain@javascript.com", "birthdate":"5/7/1968", "supervisor":"", "2012 Revenue":"375000.00", "2013 Revenue":"0.00"},
+	{"internalid":"4", "name":"Dwight Dwyer", "email":"ddwyer@javascript.com", "birthdate":"8/23/1982", "supervisor":"3", "2012 Revenue":"125000.00", "2013 Revenue":"0.00"},
+	{"internalid":"5", "name":"Eathon Eckhart", "email":"eeckhart@javascript.com", "birthdate":"11/28/1970", "supervisor":"", "2012 Revenue":"200000.00", "2013 Revenue":"0.00"}
+]
